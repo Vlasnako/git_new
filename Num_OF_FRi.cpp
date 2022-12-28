@@ -22,11 +22,11 @@ int main()
     for (n_yrs = 0; n_yrs < 99; n_yrs++)
     {
 
-        if (n_yrs % 4 == 0)
+        if (n_yrs % 4 == 0)// leap year check
         {
             for (int i = 0; i < 12; i++)
             {
-                if (days % 7 == 0)
+                if (days % 7 == 0)//Friday check
                 {
                     n_fri++;
                 }
