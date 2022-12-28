@@ -48,7 +48,7 @@ int main()
         }
 
     }
-    cout << "Number: " << n_fri;
+    cout << "total number of days: " << n_fri;
 }
 
 
