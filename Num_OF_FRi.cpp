@@ -7,7 +7,7 @@ int main()
 {
     system("chcp 1251>nul");
     cout << "Number of Friday the thirteenths in XX century" << endl;
-    int arr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    int arr[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };//months
     int days = 13, n_fri = 1, n_yrs = 0;
     for (int i = 4; i < 12; i++)
     {
